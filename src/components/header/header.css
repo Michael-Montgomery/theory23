@@ -1,0 +1,125 @@
+
+#menu-wrapper {
+    background-color: var(---primary);
+    display: inline-block;
+    z-index: 999999;
+    float: right;
+}
+
+#menu-list {
+    /* list-style-type: none; */
+    margin-bottom: 12%;
+}
+
+
+#menu-content-wrapper ul li a{
+    color: white;
+}
+
+#menu-list li a {
+    opacity: .6;
+}
+
+#menu-list li a:hover:not(.active) {
+    opacity: 1;
+}
+
+#menu-list li a.active {
+    color: red;
+}
+
+#menu-social-list {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+    margin-left: 20%;
+}
+
+#menu-social-list li {
+    display: inline;
+}
+
+header {
+    height: 70px;
+    /* background-color: var(---primary); */
+    padding-right: 15px;
+    z-index: 99999;
+    position: sticky;
+    top: 0;
+}
+
+header nav {
+    text-align: center;
+    line-height: 70px;
+}
+
+#header-logo {
+    font-size: 2em;
+}
+
+header nav a {
+    margin: 0 45px;
+    text-decoration: none;
+    color: var(---primary);
+    font-size: 1.3em;
+}
+
+header nav a:active {
+    color: red;
+}
+
+header nav a:first-child {
+    float: left;
+}
+
+header nav button {
+    float: right;
+    color: var(---primary);
+    background-color: white;
+    border: 2px solid var(---primary);
+    height: 65px;
+    width: 65px;
+    font-size: 1.4em;
+}
+
+.white-border {
+    border: 2px solid white;
+    background-color: var(---primary);
+    color: white;
+}
+
+header nav button:hover {
+    background-color: var(---primary);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding-top: 5px;
+    }
+    #header-logo {
+        margin-left: 7px;
+    }
+
+    header nav button {
+        height: 55px;
+        width: 55px;
+        font-size: 1em;
+    }
+
+  }
+  

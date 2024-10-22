@@ -1,0 +1,95 @@
+#home-outer-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+}
+
+#home-content-wrapper {
+    width: calc(100vw - 60px);
+    height: calc(100vh - 60px);
+    background-color: var(---primary);
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+#first-name {
+    font-size: 9em;
+    /* margin-top: 0; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    transform: rotate(-90deg);
+    /* justify-self: flex-start; */
+    font-family: "Arapey", serif;
+    font-weight: 400;
+    font-style: normal;
+    float: left;
+    color: white;
+    align-self: center;
+
+}
+
+#home-content-wrapper span {
+    width: 500px;
+}
+
+#tagline-text {
+    color: white;
+    align-self: center;
+    font-size: 5em;
+
+}
+
+#home-wrapper {
+    height: calc(100vh - 70px);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-picture-wrapper {
+    width: 100vw;
+    height: 80vh;
+    background-image: url('https://amusementlogic.com/wp-content/uploads/2024/07/Design-of-a-large-and-sophisticated-luxury-villa-03.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    #home-content-wrapper {
+        width: calc(100vw - 60px);
+        height: calc(100vh - 110px);
+    }
+
+    #first-name {
+        font-size: 2em;
+    }
+
+    #tagline-text {
+        font-size: 1.3em;
+    }
+}
