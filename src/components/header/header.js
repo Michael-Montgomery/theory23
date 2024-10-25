@@ -1,8 +1,6 @@
 import { Link, NavLink } from 'react-router-dom';
 import './header.css';
 import { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 function Header() {
 
@@ -27,9 +25,9 @@ function toggleMenu() {
                     menuExpanded ? <div id='menu-content-wrapper'>
                         <ul id='menu-list'>
                             <li><NavLink to='/'>Home</NavLink></li>
-                            <li><NavLink to='/our-work'>Our Work</NavLink></li>
-                            <li><NavLink to='/services'>Services</NavLink></li>
-                            <li><NavLink to='/tacos'>Home</NavLink></li>
+                            <li><NavLink to='/our-work'>What We Do</NavLink></li>
+                            <li><NavLink to='/services'>Our Team</NavLink></li>
+                            <li><NavLink to='/tacos'>Blog</NavLink></li>
                             <li><NavLink to='/contact'>Contact</NavLink></li>
                         </ul>
                         <ul id='menu-social-list'>
