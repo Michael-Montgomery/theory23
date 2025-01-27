@@ -5,7 +5,7 @@ let team = [
         title: 'Founder & Lead Engineer',
         location: 'Baltimore, Maryland',
         bio: 'Michael Montgomery',
-        imgUrl: 'https://media.licdn.com/dms/image/v2/D4E03AQHqvVvbY2zPFw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728618872630?e=1735171200&v=beta&t=iTzvU_LSYhS5vTMejhXg2_4VCDuHd09JfqVcRsgBBN4'
+        imgUrl: 'https://images.pexels.com/photos/16862148/pexels-photo-16862148/free-photo-of-portrait-of-a-man-in-a-suit-jacket-and-a-necklace.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
     },
     {
         firstName: 'Andrew',
@@ -37,7 +37,7 @@ let team = [
         title: 'Founder & Lead Engineer',
         location: 'Baltimore, Maryland',
         bio: 'Michael Montgomery',
-        imgUrl: 'https://media.licdn.com/dms/image/v2/D4E03AQHqvVvbY2zPFw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728618872630?e=1735171200&v=beta&t=iTzvU_LSYhS5vTMejhXg2_4VCDuHd09JfqVcRsgBBN4'
+        imgUrl: 'https://images.pexels.com/photos/16862148/pexels-photo-16862148/free-photo-of-portrait-of-a-man-in-a-suit-jacket-and-a-necklace.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
     },
     {
         firstName: 'Andrew',

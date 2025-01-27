@@ -13,7 +13,7 @@ h2 {
 
 #home-content-wrapper {
     width: calc(100vw - 60px);
-    height: calc(100vh - 60px);
+    height: calc(100vh - 80px);
     background-color: var(---primary);
     padding: 0;
     overflow: hidden;
@@ -66,6 +66,7 @@ h2 {
 
 #bio-wrapper {
     /* height: 700px; */
+    padding: 50px;
 }
 
 #bio-wrapper .logo {

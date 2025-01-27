@@ -71,7 +71,10 @@ export default function Home() {
                         <div id='home-picture-wrapper'></div>
                         <div id='bio-wrapper'>
                             <p id='name' className='logo'>Theory 23</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>
+                                Theory 23 is world-class software design & development studio based in Baltimore, MD and founded by Michael Montgomery a Senior Software
+                                Engineer with over a decade of experience using the latest technologies to build stunning and effective web experiences time and time again. 
+                            </p>
                         </div>
 
                         <div id='picture-wrapper-two'></div>
@@ -182,7 +185,7 @@ export default function Home() {
                             })
                         }
                     </ul>
-                    <a href='http://www.io.com'>View Website</a>
+                    <a href={projects[selectedIndex].siteUrl} target='_blank' rel="noreferrer">View Website</a>
                 </div>
 
             </Modal>
